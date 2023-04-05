@@ -1,0 +1,42 @@
+<!--
+  Name: Nurkhat Jumabaev
+  Course Name: CSc337
+  Description: main html file for the ostaa project.
+  Consists of two major components Add User and Add Item
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ostaa</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <script src="./client.js"></script>
+    <h1>Log In</h1>
+    <div>
+      <label>Username</label>
+      <input type="text" id="username-login">
+    </div>
+    <div>
+      <label>Password</label>
+      <input type="text" id="password-login">
+    </div>
+
+    <button onclick="logIn()">Log In</button>
+
+    <h1>Create Account</h1>
+    <div>
+      <label>Username</label>
+      <input type="text" id="username">
+    </div>
+    <div>
+      <label>Password</label>
+      <input type="text" id="password">
+    </div>
+
+    <button onclick="addUser()">Sign Up</button>
+    
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+    <h1>Add Post</h1>
+    <form id="item-form" onsubmit="addItem(event)" enctype="multipart/form-data">
+      <div>
+        <label>Title:</label>
+        <input type="text" id="title" name="title">
+      </div>
+      <div>
+        <label>Description:</label>
+        <textarea id="desc" name="description"></textarea>
+      </div>
+      <div>
+        <label>Image:</label>
+        <input type="file" accept="image/*" id="image" name="image">
+      </div>
+      <div>
+        <label>Price:</label>
+        <input type="number" id="price" name="price">
+      </div>
+      <div>
+        <label>Status:</label>
+        <select id="status" name="stat">
+          <option value="new">SALE</option>
+          <option value="used">SOLD</option>
+        </select>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <script src="./client.js"></script>
+  </body>
+</html>

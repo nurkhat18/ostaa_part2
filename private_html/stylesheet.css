@@ -1,0 +1,32 @@
+body{
+  height: 100%;
+}
+
+#header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 80%;
+  font-size: 20px;
+  background-color: lightblue;
+
+}
+
+#listings{
+  position: fixed;
+  left: 0;
+  right: 50%;
+  bottom: 0;
+  top: 20%;
+  background-color: lightgoldenrodyellow;
+}
+#listings-content{
+  overflow-y: scroll;
+  position: fixed;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  top: 20%;
+  background-color: lightpink;
+}

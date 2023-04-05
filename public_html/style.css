@@ -1,0 +1,13 @@
+/*
+  Name: Nurkhat Jumabaev
+  Course Name: CSc337
+  Description: Stylesheet for Ostaa Project.
+*/
+
+div, button{
+  margin-top: 10px;
+}
+
+input{
+  margin-left: 5px;
+}
